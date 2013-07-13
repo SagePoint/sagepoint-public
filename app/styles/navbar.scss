@@ -1,0 +1,43 @@
+@import "variables";
+
+.masthead {
+	padding: 12px 265px;
+
+	background-color: $slate;
+
+	.nav-pills li {
+		a {
+			background-color: $slate;
+			color: $offwhite;
+		    @include set-font("proxima-nova", 600);
+		    text-transform: uppercase;
+		}
+	    &.active a {
+			background-color: $slate-dark;
+			color: $offwhite;
+	    }
+
+	}
+
+	ul {
+		margin-left: 92px;
+		position: relative;
+		top: 18px;
+
+		li {
+			margin-right: 15px;
+		}
+	}
+	.logo, ul {
+		float: left;
+	}
+
+	.logo {
+		background-image: url("../images/masthead-logo.png");
+		// position: relative;
+		// top: -28px;
+		width: 253px;
+		height: 72px;
+	}
+
+}
