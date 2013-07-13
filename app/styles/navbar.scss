@@ -1,7 +1,6 @@
 @import "bootstrap-sass/lib/bootstrap";
 @import "variables";
-@import "common";
-@import "navbar";
 
-
-
+.navbar-inner {
+	background-color: $slate;
+}
