@@ -23,13 +23,33 @@
 	    width: 605px;
 	    height: 368px;
 	    position: relative;
-	    top: 160px;
 	    left: 235px;
 	    padding-left: 46px;
 	    padding-top: 37px;
     }
 
-    .info-form {
+    .home-hero-container {
+    	position: relative;
+    	top:160px;
+    }
+
+    form {
+    	position: relative;
+    	left: 250px;
+    	top: 15px;
+    	color: $offwhite;
+    	@include set-font("adelle", 400);
+    	font-size: 22px;
     	float: left;
+
+    	input {
+    		height: 30px;
+    		padding: 10px;
+    		background-color: $slate-dark;
+    		color: $offwhite;
+    		@include set-placeholder-color($slate-light);
+    		@include set-font("proxima-nova", 400);
+    		font-size: 18px;
+    	}
     }
 }
