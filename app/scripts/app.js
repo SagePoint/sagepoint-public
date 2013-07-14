@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('sagepointApp', [])
-.config(function ($routeProvider, $locationProvider) {
+.config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
     .when('/', {
         templateUrl: 'views/main.html',
@@ -31,6 +31,7 @@ angular.module('sagepointApp', [])
         redirectTo: '/'
     });
 
+    $httpProvider.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
     $locationProvider.html5Mode(false);
 })
 .run(function($rootScope) {
