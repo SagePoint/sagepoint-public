@@ -8,3 +8,18 @@ $offwhite:		#F5F6F7;
     font-family: $family, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: $weight;
 }
+
+@mixin set-placeholder-color($color) {
+	::-webkit-input-placeholder { /* WebKit browsers */
+	    color: $color;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	    color: $color;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	    color: $color;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	    color: $color;
+	}
+}
