@@ -1,0 +1,68 @@
+@import "variables";
+
+.footer {
+	min-height: 86px;
+	background-color: $slate-dark;
+	color: $offwhite;
+	padding: 75px 280px;
+
+	.logo-text {
+		margin: 0;
+		padding: 0;
+		.sage {
+			margin: 0;
+			padding: 0;
+			@include set-font("adelle", 800);
+			font-size: 35px;
+		}
+		.point {
+			margin: 0;
+			padding: 0;
+			@include set-font("adelle", 300);
+			font-size: 35px;
+		}
+		.software {
+			margin: 0;
+			padding: 0;
+			text-transform: uppercase;
+			letter-spacing: 11.5px;
+			line-height: 2.1;
+			@include set-font("proxima-nova", 600);
+			font-size: 16px;
+		}
+	}
+
+	.nav-pills li {
+		margin: 0 8px;
+		a {
+			background-color: $slate-dark;
+			color: $offwhite;
+		    @include set-font("proxima-nova", 600);
+		    font-size: 14px;
+		    text-transform: uppercase;
+		}
+	}
+
+	ul {
+		padding-bottom: 25px;
+	    &.terms li a {
+	    	color: $slate-light;
+		    @include set-font("proxima-nova", 300);
+	    	&:hover {
+	    		color: lighten($slate-light, 10);
+	    	}
+	    	text-transform: none !important;
+	    }
+
+	}
+
+	.divider {
+	    background-image: url("../images/divider.png");
+	    background-repeat: no-repeat;
+	    position: relative;
+	    top: 85px;
+	    left: 357px;
+	    width: 621px;
+	    height: 5px;
+	}
+}

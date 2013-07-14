@@ -2,11 +2,6 @@
 
 angular.module('sagepointApp')
   .controller('NavbarCtrl', function ($scope, $location, $log) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
 
 	$scope.redirect = function(url) {
 		$location.path(url);
