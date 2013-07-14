@@ -35,8 +35,9 @@
                 <li ng-class="navClass('company')"><a href="#/company">Company</a></li>
                 <li ng-class="navClass('blog')"><a href="#/blog">Blog</a></li>
                 <li ng-class="navClass('support')"><a href="#/support">Support</a></li>
+                <li class="login-button pull-right clickable" ng-click="redirect('/login')"></li>
             </ul>
-            <div class="login-button pull-right clickable" ng-click="redirect('/login')"></div>
+            <!-- <div class="login-button pull-right clickable" ng-click="redirect('/login')"></div> -->
         </div>
 
         <div class="main-view row-fluid" ng-view="" ng-cloak></div>

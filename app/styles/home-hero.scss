@@ -1,0 +1,35 @@
+@import "variables";
+
+.home-hero {
+    background-image: url("../images/pretties.png");
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 535px;
+
+    h1 {
+    	margin: 0;
+    	@include set-font("adelle", 300);
+    	font-size: 75px;
+		color: $offwhite;
+		text-align: center;
+		position: relative;
+		top: 55px;
+    }
+
+    .video-frame {
+    	float: left;
+	    background-image: url("../images/video-frame.png");
+	    background-repeat: no-repeat;
+	    width: 605px;
+	    height: 368px;
+	    position: relative;
+	    top: 160px;
+	    left: 235px;
+	    padding-left: 46px;
+	    padding-top: 37px;
+    }
+
+    .info-form {
+    	float: left;
+    }
+}
