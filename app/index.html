@@ -42,7 +42,26 @@
 
         <div class="main-view row-fluid" ng-view="" ng-cloak></div>
 
-        <div ng-controller="FooterCtrl" class="footer"></div>
+        <div class="footer">
+            <div class="logo-text pull-left">
+                <div><span class="sage">Sage</span><span class="point">Point</span></div>
+                <div><span class="software">Software</span></div>
+            </div>
+            <ul class="nav nav-pills pull-right">
+                <li><a href="#/learn">About</a></li>
+                <li><a href="#/company">Company</a></li>
+                <li><a href="#/blog">Blog</a></li>
+                <li><a href="#/support">Support</a></li>
+                <li class="login-button pull-right clickable" ng-click="redirect('/login')"></li>
+            </ul>
+            <div class="divider"></div>
+            <ul class="nav nav-pills pull-right terms">
+                <li><a href="#/terms">Terms</a></li>
+                <li><a href="#/privacy">Privacy</a></li>
+                <li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
+            </ul>
+
+        </div>
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
