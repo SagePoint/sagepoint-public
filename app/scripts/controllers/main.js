@@ -17,9 +17,6 @@ angular.module('sagepointApp')
 			$http.post($scope.url, {
 			    name: $scope.requester.name,
 			    email: $scope.requester.email,
-			    headers: {
-			        "Content-Type": "application/json"
-			    }
 			}).success(function (data, status, headers, config) {
 			    // TODO
 			}).error(function (data, status, headers, config) {
