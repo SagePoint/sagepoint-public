@@ -17,6 +17,7 @@
     }
 
     .video-frame {
+    	float: left;
 	    background-image: url("../images/video-frame.png");
 	    background-repeat: no-repeat;
 	    width: 605px;
@@ -24,5 +25,11 @@
 	    position: relative;
 	    top: 160px;
 	    left: 235px;
+	    padding-left: 46px;
+	    padding-top: 37px;
+    }
+
+    .info-form {
+    	float: left;
     }
 }
