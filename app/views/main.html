@@ -4,30 +4,29 @@
 		<div class="video-frame">
 			<iframe src="http://player.vimeo.com/video/67889339?title=0&amp;byline=0&amp;portrait=0" width="514" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
-		<form>
+		<form name="requestForm" novalidate>
 			<p>Sound interesting? Learn more:</p>
 			<fieldset>
 				<div class="control-group">
 					<div class="controls">
-						<input type="text" id="inputName" placeholder="First and last name">
+						<input type="text" ng-model="requestForm.name" placeholder="First and last name" required>
 					</div>
 				</div>
 				<div class="control-group">
 					<div class="controls">
-						<input type="text" id="inputEmail" placeholder="Email address">
+						<input type="email" ng-model="requestForm.email" placeholder="Email address" required>
 					</div>
 				</div>
-				<button type="submit" class="btn">Submit</button>
+				<div ng-class="submitClass(requestForm)" ng-click="submit(requestForm)"></div>
 			</fieldset>
 		</form>
 	</div>
 </div>
 
-<div class="hero-unit">
-  <h1>SagePoint Software</h1>
-  <p>Public Site Staging Server</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>this was deployed automatically =)</p>
+<div class="sub-hero">
+  <p><span class="company-title">SagePoint Software &trade;</span> is a Software-as-a-Service (SaaS) toolset you can use to unlock the full potential of your resources and your partners</p>
+</div>
+
+<div class="home-hero bg-slate">
+	<h2>With <span class="company-title">SagePoint &trade;</span>, you will maximize the contribution of every skilled resource.</h2>
 </div>
