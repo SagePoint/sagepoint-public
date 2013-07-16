@@ -11,7 +11,7 @@ $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>"
 $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($data->email) . "</td></tr>";
 $message .= "</table>";
 
-error_log("SagePoint: Sending mail FROM: " . $data->name);
+error_log("SagePoint: Sending request mail");
 
 $mail = new PHPMailer;
 
@@ -22,8 +22,8 @@ $mail->Username = 'ac39582';                          // SMTP username
 $mail->Password = 'AUTHSMTP_TOKEN';                   // SMTP password
 //$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
-$mail->From = strip_tags($data->email);
-$mail->FromName = strip_tags($data->name);
+$mail->From = 'site@sagepointsoftware.com';
+$mail->FromName = 'Sagepoint Public Site Info Request';
 $mail->AddAddress('jdelorenzo@sagepointsoftware.com', 'Jarad DeLorenzo');  // Add a recipient
 $mail->AddAddress('rwilner@sagepointsoftware.com', 'Richard Wilner');  // Add a recipient
 $mail->AddAddress('nzitsman@sagepointsoftware.com', 'Noah Zitsman');  // Add a recipient
