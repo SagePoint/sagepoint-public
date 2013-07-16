@@ -17,10 +17,10 @@ $mail = new PHPMailer;
 
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'mail.authsmtp.com';			  		  // Specify main and backup server
-$mail->SMTPAuth = false;                               // Enable SMTP authentication
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'ac39582';                          // SMTP username
-$mail->Password = 'AUTHSMTP_TOKEN';                   // SMTP password
-//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+$mail->Password = 'nuxk9wndw';                   // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
 $mail->From = 'site@sagepointsoftware.com';
 $mail->FromName = 'Sagepoint Public Site Info Request';
