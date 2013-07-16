@@ -1,5 +1,5 @@
 <?php
-require 'class.phpmailer.php';
+require 'lib/class.phpmailer.php';
 
 $data = json_decode(file_get_contents('php://input'));
 $subject = 'SagePoint: Request for info';
