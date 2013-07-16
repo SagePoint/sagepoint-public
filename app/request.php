@@ -1,5 +1,5 @@
 <?php
-require 'lib/class.phpmailer.php';
+require '../vendor/phpmailer/phpmailer/class.phpmailer.php';
 
 $data = json_decode(file_get_contents('php://input'));
 $subject = 'SagePoint: Request for info';
@@ -11,16 +11,16 @@ $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>"
 $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($data->email) . "</td></tr>";
 $message .= "</table>";
 
-error_log("SagePoint: Sending mail to " . $to . " FROM: " . $data->name);
+error_log("SagePoint: Sending mail FROM: " . $data->name);
 
 $mail = new PHPMailer;
 
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'mail.authsmtp.com';			  		  // Specify main and backup server
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->SMTPAuth = false;                               // Enable SMTP authentication
 $mail->Username = 'ac39582';                          // SMTP username
 $mail->Password = 'AUTHSMTP_TOKEN';                   // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
 $mail->From = strip_tags($data->email);
 $mail->FromName = strip_tags($data->name);
