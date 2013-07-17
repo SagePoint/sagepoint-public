@@ -1,3 +1,5 @@
+@import "variables";
+
 .surveyForm {
 	.control-label {
 		width: 185px;
@@ -5,5 +7,13 @@
 
 	.controls {
 		margin-left: 250px;
+	}
+}
+
+.coming-soon {
+	text-align: center;
+	@include set-font("proxima-nova");
+	.countdown-timer {
+		margin-top: 30px;
 	}
 }
