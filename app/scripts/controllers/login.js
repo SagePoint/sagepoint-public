@@ -1,9 +1,11 @@
 'use strict';
 
 angular.module('sagepointApp')
-  .controller('LoginCtrl', function ($scope) {
+  .controller('LoginCtrl', function ($scope, $location, $timeout) {
 
-    $scope.pageTitle = "Login Page";
-    $scope.pageDescription = "This is where the support thingies will go - or will redirect to the login page, or something like that"
-
+    $scope.pageTitle = "Login";
+    $scope.pageDescription = "You are being redirected to the SagePoint login portal. Just give us a sec...";
+	$timeout(function() {
+		location.href =  "http://www.sagepointsoftware.com/account/login";
+	}, 1000);
   });

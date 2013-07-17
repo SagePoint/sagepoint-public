@@ -31,10 +31,10 @@
         <div ng-controller="NavbarCtrl" class="masthead clearfix">
             <div class="logo clickable" ng-click="redirect('/')"></div>
             <ul class="nav nav-pills">
-                <li ng-class="navClass('learn')"><a href="#/learn">Learn More</a></li>
-                <li ng-class="navClass('company')"><a href="#/company">Company</a></li>
-                <li ng-class="navClass('blog')"><a href="#/blog">Blog</a></li>
-                <li ng-class="navClass('support')"><a href="#/support">Support</a></li>
+                <li ng-class="navClass('learn')"><a href="#" ng-click="showComingSoon()">Learn More</a></li>
+                <li ng-class="navClass('company')"><a href="#" ng-click="showComingSoon()">Company</a></li>
+                <li ng-class="navClass('blog')"><a href="#" ng-click="showComingSoon()">Blog</a></li>
+                <li ng-class="navClass('support')"><a href="http://sagepoint.uservoice.com">Support</a></li>
                 <li class="login-button pull-right clickable" ng-click="redirect('/login')"></li>
             </ul>
             <!-- <div class="login-button pull-right clickable" ng-click="redirect('/login')"></div> -->
@@ -42,22 +42,22 @@
 
         <div class="main-view row-fluid" ng-view="" ng-cloak></div>
 
-        <div class="footer">
+        <div class="footer" ng-controller="FooterCtrl">
             <div class="logo-text pull-left">
                 <div><span class="sage">Sage</span><span class="point">Point</span></div>
                 <div><span class="software">Software</span></div>
             </div>
             <ul class="nav nav-pills pull-right">
-                <li><a href="#/learn">About</a></li>
-                <li><a href="#/company">Company</a></li>
-                <li><a href="#/blog">Blog</a></li>
+                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">About</a></li>
+                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Company</a></li>
+                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Blog</a></li>
                 <li><a href="#/support">Support</a></li>
                 <li class="login-button pull-right clickable" ng-click="redirect('/login')"></li>
             </ul>
             <div class="divider"></div>
             <ul class="nav nav-pills pull-right terms">
-                <li><a href="#/terms">Terms</a></li>
-                <li><a href="#/privacy">Privacy</a></li>
+                <li><a href="#" ng-click="showTerms()">Terms</a></li>
+                <li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
                 <li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
             </ul>
 
@@ -107,6 +107,7 @@
     <script src="scripts/controllers/blog.js"></script>
     <script src="scripts/controllers/support.js"></script>
     <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/controllers/footer.js"></script>
     <!-- endbuild -->
 </body>
 </html>

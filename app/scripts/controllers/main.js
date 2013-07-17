@@ -21,6 +21,7 @@ angular.module('sagepointApp')
 		    $dialog.dialog({
 			    backdrop: true,
 			    keyboard: true,
+			    dialogFade: true,
 			    backdropClick: true,
 			    controller: 'SurveyCtrl'
 		    }).open('views/_popupSurvey.html');
