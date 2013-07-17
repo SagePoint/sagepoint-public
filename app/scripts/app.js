@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sagepointApp', [])
+angular.module('sagepointApp', ['ui.bootstrap'])
 .config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
     .when('/', {
