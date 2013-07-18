@@ -4,7 +4,11 @@
 	min-height: 86px;
 	background-color: $slate-dark;
 	color: $offwhite;
-	padding: 75px 280px;
+	padding: 75px 15%;
+
+	@media (max-width: 979px) {
+		padding: 75px 20px;
+	}
 
 	.logo-text {
 		margin: 0;
@@ -44,14 +48,17 @@
 	}
 
 	ul {
-		padding-bottom: 25px;
-	    &.terms li a {
-	    	color: $slate-light;
-		    @include set-font("proxima-nova", 300);
-	    	&:hover {
-	    		color: lighten($slate-light, 10);
+	    &.terms {
+	    	position: relative;
+	    	top: 40px;
+	    	li a {
+		    	color: $slate-light;
+			    @include set-font("proxima-nova", 300);
+		    	&:hover {
+		    		color: lighten($slate-light, 10);
+		    	}
+		    	text-transform: none !important;
 	    	}
-	    	text-transform: none !important;
 	    }
 
 	}
@@ -59,10 +66,13 @@
 	.divider {
 	    background-image: url("../images/divider.png");
 	    background-repeat: no-repeat;
+		@media (max-width: 979px) {
+			display: none;
+		}
 	    position: relative;
 	    top: 85px;
 	    left: 357px;
-	    width: 621px;
+	    max-width: 621px;
 	    height: 5px;
 	}
 }
