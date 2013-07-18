@@ -1,7 +1,25 @@
 @import "variables";
 
+.navbar-inner {
+	background-color: $slate;
+	background-image: none;
+	color: $offwhite;
+	text-align: center;
+	border: none;
+	.nav > li > a {
+		text-shadow: none;
+		&:hover {
+			color: inherit;
+		}
+	}
+}
+
 .masthead {
-	padding: 12px 265px;
+	&.navbar {
+		margin: 0;
+	}
+//	padding: 12px 265px;
+	padding: 12px 0px;
 
 	background-color: $slate;
 
