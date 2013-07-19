@@ -1,5 +1,4 @@
 @import "variables";
-@import "sass-css3-mixins/css3-mixins";
 
 .home-hero {
     background-image: url("../images/pretties.png");
@@ -54,7 +53,10 @@
 	    padding-left: 46px;
 	    padding-top: 37px;
 		@media (max-width: 480px) {
-			 @include scale(0.6);
+			 -webkit-transform: scale(0.6);
+			 -ms-transform: scale(0.6);
+			 -transform: scale(0.6);
+			 -moz-transform: scale(0.6);
 			 left: -136px;
 			 &.hero-unit {
 			 	padding: 0;
