@@ -1,34 +1,28 @@
 <div class="home-hero bg-slate">
 	<h1>Optimize your workforce.</h1>
-	<div class="home-hero-container clearfix">
+	<div class="home-hero-container clearfix center-me">
 		<div class="video-frame">
 			<iframe src="http://player.vimeo.com/video/67889339?title=0&amp;byline=0&amp;portrait=0" width="514" height="289" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
-		<form class="visible-desktop" name="requestForm" novalidate>
-			<p>Sound interesting? Learn more:</p>
-			<fieldset>
-				<div class="control-group">
-					<div class="controls">
-						<input type="text" id="requester-name" ng-model="requestForm.name" placeholder="First and last name" required>
-					</div>
-				</div>
-				<div class="control-group">
-					<div class="controls">
-						<input type="email" id="requester-email" ng-model="requestForm.email" placeholder="Email address" required>
-					</div>
-				</div>
-				<div ng-class="submitClass(requestForm)" ng-click="submit(requestForm)"></div>
-			</fieldset>
-		</form>
+		<div class="request-form top-request-form visible-desktop"></div>
 	</div>
 </div>
 
 <div class="clearfix"></div>
 
-<div class="sub-hero">
-  <p><span class="company-title">SagePoint Software &trade;</span> is a Software-as-a-Service (SaaS) toolset you can use to unlock the full potential of your resources and your partners</p>
+<div class="sub-hero center-me">
+  <div class="span10">
+  	<p><span class="company-title">SagePoint Software &trade;</span> is a Software-as-a-Service (SaaS) toolset you can use to unlock the full potential of your resources and your partners</p>
+  </div>
 </div>
 
-<div class="home-hero bg-slate">
-	<h2>With <span class="company-title">SagePoint &trade;</span>, you will maximize the contribution of every skilled resource.</h2>
+<div class="home-hero bg-slate clearfix center-me form">
+	<div class="request-form bottom-request-form hidden-desktop"></div>
+</div>
+
+<div class="home-hero bg-slate clearfix center-me" style="height: 370px; background-position-y: -257px;  margin-top: -280px;">
+	<div class="span8 sub-sub-hero" >
+		<h2>With <span class="company-title">SagePoint &trade;</span>, you will maximize the contribution of every skilled resource.</h2>
+	</div>
+
 </div>

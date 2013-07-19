@@ -50,4 +50,17 @@ angular.module('sagepointApp', ['ui.bootstrap'])
         backdropFade: true,
         dialogFade:true
     };
+
+	$rootScope.getWidth = function() {
+		return document.body.clientWidth;
+	};
+
+	$rootScope.$watch($rootScope.getWidth, function(newValue) {
+		$rootScope.windowWidth = newValue;
+	});
+
+	window.onresize = function(){
+		$rootScope.$apply();
+		$rootScope.$broadcast('resize');
+	};
 });
