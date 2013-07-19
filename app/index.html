@@ -4,125 +4,128 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <script type="text/javascript" src="//use.typekit.net/xel2nve.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<script type="text/javascript" src="//use.typekit.net/xel2nve.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!-- build:css({.tmp,app}) styles/main.css -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- endbuild -->
 </head>
 <body ng-app="sagepointApp">
-    <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-      <![endif]-->
+	<!--[if lt IE 7]>
+	  <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+	  <![endif]-->
 
-    <!--[if lt IE 9]>
-      <script src="bower_components/es5-shim/es5-shim.js"></script>
-      <script src="bower_components/json3/lib/json3.min.js"></script>
-      <![endif]-->
+	<!--[if lt IE 9]>
+	  <script src="bower_components/es5-shim/es5-shim.js"></script>
+	  <script src="bower_components/json3/lib/json3.min.js"></script>
+	  <![endif]-->
 
-      <!-- Add your site or application content here -->
-    <div class="container-fluid">
-        <div ng-controller="NavbarCtrl" class="masthead clearfix navbar">
-            <div class="navbar-inner">
-                <div class="container">
-                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
+	  <!-- Add your site or application content here -->
+	<div class="container-fluid">
+		<div ng-controller="NavbarCtrl" class="masthead clearfix navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
 
-                    <div class="logo clickable" ng-click="redirect('/')"></div>
+					<div class="logo clickable" ng-click="redirect('/')"></div>
 
-                    <ul class="nav nav-pills nav-collapse collapse">
+					<ul class="nav nav-pills nav-collapse collapse">
 <!--                         <li ng-class="navClass('learn')"><a href="#" ng-click="showComingSoon()">Learn More</a></li>
-                        <li ng-class="navClass('company')"><a href="#" ng-click="showComingSoon()">Company</a></li>
-                        <li ng-class="navClass('blog')"><a href="#" ng-click="showComingSoon()">Blog</a></li>
+						<li ng-class="navClass('company')"><a href="#" ng-click="showComingSoon()">Company</a></li>
+						<li ng-class="navClass('blog')"><a href="#" ng-click="showComingSoon()">Blog</a></li>
  -->                        <li ng-class="navClass('support')"><a href="http://sagepoint.uservoice.com">Support</a></li>
-                        <li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
-                        <li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+						<li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
+						<li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-        <div class="main-view row-fluid" ng-view="" ng-cloak></div>
+		<div class="main-view row-fluid" ng-view="" ng-cloak></div>
 
-        <div class="footer row-fluid" ng-controller="FooterCtrl">
-            <div class="logo-text pull-left">
-                <div><span class="sage">Sage</span><span class="point">Point</span></div>
-                <div><span class="software">Software</span></div>
-            </div>
-            <ul class="nav nav-pills pull-right">
-<!--                 <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">About</a></li>
-                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Company</a></li>
-                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Blog</a></li>
- -->                <li><a href="#/support">Support</a></li>
-                <li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
-                <li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
+		<div class="footer row-fluid" ng-controller="FooterCtrl">
+			<div class="container">
+				<div class="logo-text pull-left">
+					<div><span class="sage">Sage</span><span class="point">Point</span></div>
+					<div><span class="software">Software</span></div>
+				</div>
 
-            </ul>
-            <div class="divider"></div>
-            <div class="clearfix"></div>
-            <ul class="nav nav-pills pull-right terms">
-                <li><a href="#" ng-click="showTerms()">Terms</a></li>
-                <li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
-                <li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
-            </ul>
+				<ul class="nav nav-pills pull-right">
+	<!--            <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">About</a></li>
+					<li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Company</a></li>
+					<li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Blog</a></li> -->
+					<li><a href="#/support">Support</a></li>
+					<li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
+					<li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
+				</ul>
+				<div class="divider"></div>
+				<div class="clearfix"></div>
+				<ul class="nav nav-pills pull-right terms">
+					<li><a href="#" ng-click="showTerms()">Terms</a></li>
+					<li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
+					<li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-        </div>
-    </div>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		  g.src='//www.google-analytics.com/ga.js';
+		  s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src='//www.google-analytics.com/ga.js';
-          s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
+	<script src="bower_components/angular/angular.js"></script>
 
-    <script src="bower_components/angular/angular.js"></script>
+	<!-- build:js({.tmp,app}) scripts/scripts.js -->
+	<script src="scripts/app.js"></script>
+	<script src="scripts/controllers/main.js"></script>
+	<!-- endbuild -->
 
-    <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/main.js"></script>
-    <!-- endbuild -->
+	<!-- build:js scripts/plugins.js -->
+	<script src="bower_components/jquery/jquery.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-modal.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-transition.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-button.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-popover.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
+	<script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
+	<!-- endbuild -->
 
-    <!-- build:js scripts/plugins.js -->
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-modal.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-transition.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-button.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-popover.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
-    <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
-    <!-- endbuild -->
-
-    <!-- build:js scripts/modules.js -->
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="scripts/controllers/navbar.js"></script>
-    <script src="scripts/controllers/learn.js"></script>
-    <script src="scripts/controllers/company.js"></script>
-    <script src="scripts/controllers/blog.js"></script>
-    <script src="scripts/controllers/support.js"></script>
-    <script src="scripts/controllers/login.js"></script>
-    <script src="scripts/controllers/footer.js"></script>
-    <!-- endbuild -->
+	<!-- build:js scripts/modules.js -->
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+	<script src="scripts/controllers/navbar.js"></script>
+	<script src="scripts/controllers/learn.js"></script>
+	<script src="scripts/controllers/company.js"></script>
+	<script src="scripts/controllers/blog.js"></script>
+	<script src="scripts/controllers/support.js"></script>
+	<script src="scripts/controllers/login.js"></script>
+	<script src="scripts/controllers/footer.js"></script>
+	<script src="scripts/directives/centerMe.js"></script>
+<script src="scripts/directives/requestForm.js"></script>
+	<!-- endbuild -->
 </body>
 </html>

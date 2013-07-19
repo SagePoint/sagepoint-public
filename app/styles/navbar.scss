@@ -18,7 +18,6 @@
 	&.navbar {
 		margin: 0;
 	}
-//	padding: 12px 265px;
 	padding: 12px 0px;
 
 	background-color: $slate;
@@ -29,6 +28,9 @@
 			color: $offwhite;
 		    @include set-font("proxima-nova", 600);
 		    text-transform: uppercase;
+		    &:hover {
+		    	text-shadow: 0 0 10px $sage-light;
+		    }
 		}
 	    &.active a {
 			background-color: $slate-dark;
