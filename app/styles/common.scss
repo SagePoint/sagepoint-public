@@ -18,10 +18,10 @@ body {
     cursor: pointer;
 }
 
-.container-narrow {
+.container-fluid {
     background-color: $offwhite;
     margin: 0 auto;
-    max-width: 1500px;
+    padding: 0;
 }
 
 .container-narrow > hr {
