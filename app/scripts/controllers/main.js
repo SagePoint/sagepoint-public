@@ -31,13 +31,6 @@ angular.module('sagepointApp')
   		}
   	};
 
-  	$scope.submitClass = function(requestForm) {
-  		if(requestForm.$valid) {
-  			return "submit clickable";
-  		} else {
-  			return "submit not-clickable";
-  		}
-  	}
   })
 
   .controller('SurveyCtrl', function($scope, $dialog, dialog, $http, $log) {
