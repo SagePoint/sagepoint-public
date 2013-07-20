@@ -83,6 +83,18 @@ body {
 	    	background-position: inherit;
 	    }
 	}
+
+    @media (max-width: 480px) {
+        top: -60px;
+         -webkit-transform: scale(0.55);
+         -ms-transform: scale(0.55);
+         -transform: scale(0.55);
+         -moz-transform: scale(0.55);
+         left: -15px;
+         &.hero-unit {
+            padding: 0;
+         }
+    }
 }
 
 .hero-unit {
