@@ -20,6 +20,7 @@
 		line-height: 1;
 		@media (max-width: 480px) {
 			width: 100%;
+			font-size: 50px;
 		}
     }
 
@@ -55,11 +56,11 @@
 	    padding-top: 37px;
 		@media (max-width: 480px) {
 			top: -110px;
-			 -webkit-transform: scale(0.6);
-			 -ms-transform: scale(0.6);
-			 -transform: scale(0.6);
-			 -moz-transform: scale(0.6);
-			 left: -136px;
+			 -webkit-transform: scale(0.45);
+			 -ms-transform: scale(0.45);
+			 -transform: scale(0.45);
+			 -moz-transform: scale(0.45);
+			 left: -160px;
 			 &.hero-unit {
 			 	padding: 0;
 			 }
