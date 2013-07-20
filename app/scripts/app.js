@@ -59,6 +59,14 @@ angular.module('sagepointApp', ['ui.bootstrap'])
 		$rootScope.windowWidth = newValue;
 	});
 
+    $rootScope.submitClass = function(requestForm) {
+        if(requestForm.$valid) {
+            return "submit clickable";
+        } else {
+            return "submit not-clickable";
+        }
+    }
+
 	window.onresize = function(){
 		$rootScope.$apply();
 		$rootScope.$broadcast('resize');
