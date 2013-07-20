@@ -125,11 +125,18 @@ body {
 }
 
 .content-section-header {
-    h3 {
+    div.header {
         @include set-font("proxima-nova", 600);
         color: $sage;
         font-size: 17px;
         text-transform: uppercase;
+    }
+
+    .divider {
+        display: inline-block;
+        background-image: url('../images/divider.png');
+        width: 20%;
+        height:2px;
     }
 }
 
