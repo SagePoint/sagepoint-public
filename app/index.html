@@ -10,7 +10,9 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
 	<script type="text/javascript" src="//use.typekit.net/xel2nve.js"></script>
+
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<!-- build:css({.tmp,app}) styles/main.css -->
 	<link rel="stylesheet" href="styles/main.css">
@@ -40,8 +42,8 @@
 
 					<div class="logo clickable" ng-click="redirect('/')"></div>
 
-					<ul class="nav nav-pills nav-collapse collapse">
-						<li ng-class="navClass('learn')"><a href="#/learn">Learn More</a></li>
+					<ul class="nav nav-pills nav-collapse collapse pull-right">
+						<!-- <li ng-class="navClass('learn')"><a href="#/learn">Learn More</a></li> -->
 <!--					<li ng-class="navClass('company')"><a href="#" ng-click="showComingSoon()">Company</a></li>
 						<li ng-class="navClass('blog')"><a href="#" ng-click="showComingSoon()">Blog</a></li>
  -->                    <li ng-class="navClass('support')"><a href="http://sagepoint.uservoice.com">Support</a></li>
@@ -52,31 +54,39 @@
 			</div>
 		</div>
 
-		<div class="main-view row-fluid" ng-view="" ng-cloak></div>
+		<div class="main-view row-fluid" ng-view="" ng-cloak>
+			<!-- main view -->
+		</div>
 
-		<div class="footer row-fluid" ng-controller="FooterCtrl">
-			<div class="container">
-				<div class="logo-text pull-left">
-					<div><span class="sage">Sage</span><span class="point">Point</span></div>
-					<div><span class="software">Software</span></div>
+		<div ng-controller="NavbarCtrl" class="mastfoot clearfix navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+
+					<div class="logo clickable" ng-click="redirect('/')"></div>
+
+					<ul class="nav nav-pills nav-collapse collapse pull-right">
+						<!-- <li ng-class="navClass('learn')"><a href="#/learn">Learn More</a></li> -->
+<!--					<li ng-class="navClass('company')"><a href="#" ng-click="showComingSoon()">Company</a></li>
+						<li ng-class="navClass('blog')"><a href="#" ng-click="showComingSoon()">Blog</a></li>
+ -->                    <li ng-class="navClass('support')"><a href="http://sagepoint.uservoice.com">Support</a></li>
+						<li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
+						<li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
+					</ul>
 				</div>
-
-				<ul class="nav nav-pills pull-right">
-					<li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Learn More</a></li>
-<!--                <li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Company</a></li>
-					<li><a href="#" ng-controller="NavbarCtrl" ng-click="showComingSoon()">Blog</a></li> -->
-					<li><a href="#/support">Support</a></li>
-					<li class="hidden-desktop"><a href="#" ng-click="redirect('/login')">Login</a></li>
-					<li class="login-button pull-right clickable visible-desktop" ng-click="redirect('/login')"></li>
-				</ul>
-				<div class="divider"></div>
-				<div class="clearfix"></div>
-				<ul class="nav nav-pills pull-right terms">
-					<li><a href="#" ng-click="showTerms()">Terms</a></li>
-					<li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
-					<li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
-				</ul>
 			</div>
+			<div class="divider pull-right"></div>
+			<div class="clearfix"></div>
+			<ul class="nav nav-pills pull-right terms">
+				<li><a href="#" ng-click="showTerms()">Terms</a></li>
+				<li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
+				<li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
+			</ul>
 		</div>
 	</div>
 

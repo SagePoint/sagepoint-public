@@ -6,6 +6,9 @@
     background-position-x: 109px;
     height: 535px;
 
+	@media (max-width: 480px) {
+		top: 480px;
+	}
     &.form {
     	padding-top: 40px;
     }
@@ -39,10 +42,6 @@
 		color: $offwhite;
 		text-align: left;
 		line-height: 1.5;
-		.company-title {
-			@include set-font("adelle", 800);
-		}
-
     }
 
     .video-frame {
@@ -74,10 +73,21 @@
 }
 
 .sub-hero {
-	padding: 150px 0;
+	padding: 150px 0 0 0;
+
+	@media (min-width: 979px) {
+		padding: 150px 0;
+		margin-bottom: 90px;
+	}
 
 	@media (max-width: 480px) {
-		padding: 0 0 50px 0;
+		font-size: 20px;
+		padding: 0 0 0px 0;
+	}
+
+	@media (min-width: 768px) and (max-width: 979px) {
+		padding: 150px 0;
+		margin-bottom: 100px;
 	}
 	text-align: center;
 	line-height: 1.5;
@@ -92,7 +102,7 @@
 	position: relative;
 
 	@media (min-width: 980px) {
-		top: -250px;
+		top: -380px;
 
 	}
 
@@ -106,6 +116,6 @@
 	}
 
 	@media (max-width: 480px) {
-		top: -100px;
+		top: -200px;
 	}
 }

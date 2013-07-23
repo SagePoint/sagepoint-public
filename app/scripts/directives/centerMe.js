@@ -1,13 +1,14 @@
 'use strict';
 
 angular.module('sagepointApp')
-  .directive('centerMe', function ($timeout) {
+  .directive('centerMe', function ($timeout, $rootScope, $log) {
     return {
       restrict: 'C',
       replace: false,
       link: function postLink(scope, element, attrs) {
 
       	var resize = function() {
+      		$log.info("centerMe: resize()");
 	      	if(parseInt(scope.windowWidth) < 480) {
 	      		$(element).css("padding-left", "0");
 	      		return;
@@ -23,6 +24,9 @@ angular.module('sagepointApp')
       		})();
       		var outter = parseInt(scope.windowWidth, 10);
       		var gutter = parseInt(outter - inner) / 2
+      		$log.info(inner);
+      		$log.info(outter);
+      		$log.info(gutter);
       		if(inner >= outter) {
       			$(element).css("padding-left","12.5px" );
       		} else {
@@ -31,10 +35,12 @@ angular.module('sagepointApp')
       		}
       	}
 
-
+		$log.info("centerMe: instantiated");
       	scope.$on('resize', resize);
-      	resize();
-
+  		//Bug in angular??  NO idea why, but if I broadcast resize twice, the second one works - not the first.
+  		// F me.
+  		$rootScope.$broadcast('resize');
+  		$rootScope.$broadcast('resize');
       }
     };
   });

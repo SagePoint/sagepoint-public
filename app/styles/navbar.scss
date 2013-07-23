@@ -1,7 +1,6 @@
 @import "variables";
 
 .navbar-inner {
-	background-color: $slate;
 	background-image: none;
 	color: $offwhite;
 	text-align: center;
@@ -18,7 +17,12 @@
 	&.navbar {
 		margin: 0;
 	}
-	padding: 12px 0px;
+
+	.navbar-inner {
+		background-color: $slate;
+	}
+
+	padding: 12px 50px;
 
 	background-color: $slate;
 
@@ -54,9 +58,51 @@
 
 	.logo {
 		background-image: url("../images/masthead-logo.png");
+		// position: relative;
+		// top: -28px;
 		width: 253px;
 		height: 72px;
-		margin-right: 35px;
 	}
 
+}
+
+.mastfoot {
+	@extend .masthead;
+
+	.navbar-inner {
+		background-color: $slate-dark;
+	}
+
+	.nav-pills li {
+		a {
+			background-color: $slate-dark;
+		}
+	}
+	background-color: $slate-dark;
+
+	ul {
+		margin-bottom: 10px;
+	    &.terms {
+	    	li a {
+	    		text-shadow: none;
+		    	color: $slate-light;
+			    @include set-font("proxima-nova", 300);
+		    	&:hover {
+		    		color: lighten($slate-light, 10);
+		    	}
+		    	text-transform: none !important;
+	    	}
+	    }
+
+	}
+
+	.divider {
+	    background-image: url("../images/divider.png");
+	    background-repeat: no-repeat;
+		@media (max-width: 979px) {
+			display: none;
+		}
+	    width: 621px;
+	    height: 5px;
+	}
 }
