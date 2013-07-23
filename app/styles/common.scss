@@ -55,7 +55,10 @@ body {
 	@include set-font("adelle", 400);
 	font-size: 22px;
 	float: left;
-    padding: 0 0px;
+	@media (max-width: 979px) {
+	    padding: 25px 0px;
+	}
+
 
 	input {
 		box-shadow: inset 3px 2px 4px 0.1px rgba(0, 0, 0, 0.2);
@@ -90,12 +93,11 @@ body {
 	}
 
     @media (max-width: 480px) {
-        top: -60px;
-         -webkit-transform: scale(0.55);
-         -ms-transform: scale(0.55);
-         -transform: scale(0.55);
-         -moz-transform: scale(0.55);
-         left: -15px;
+         -webkit-transform: scale(0.85);
+         -ms-transform: scale(0.85);
+         -transform: scale(0.85);
+         -moz-transform: scale(0.85);
+         left: 15px;
          &.hero-unit {
             padding: 0;
          }
