@@ -6,6 +6,10 @@ angular.module('sagepointApp')
 		templateUrl: 'views/_requestForm.html',
 		restrict: 'C',
 		transclude: true,
-		replace: true
+		replace: true,
+	    link: function postLink(scope, iElement, iAttrs) {
+	    	$("input").placeholder();
+	    }
+
 	};
 });
