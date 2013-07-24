@@ -2,6 +2,7 @@
 
 .navbar-inner {
 	background-image: none;
+	filter: none;
 	color: $offwhite;
 	text-align: center;
 	border: none;
@@ -81,8 +82,9 @@
 	background-color: $slate-dark;
 
 	ul {
-		margin-bottom: 10px;
 	    &.terms {
+			position: relative;
+			top: 0px;
 	    	li a {
 	    		text-shadow: none;
 		    	color: $slate-light;

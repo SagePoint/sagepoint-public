@@ -58,7 +58,7 @@
 			<!-- main view -->
 		</div>
 
-		<div ng-controller="NavbarCtrl" class="mastfoot clearfix navbar">
+		<div ng-controller="NavbarCtrl" class="mastfoot clearfix navbar" ng-cloak>
 			<div class="navbar-inner">
 				<div class="container">
 					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -82,7 +82,7 @@
 			</div>
 			<div class="divider pull-right"></div>
 			<div class="clearfix"></div>
-			<ul class="nav nav-pills pull-right terms">
+			<ul class="nav nav-pills pull-right terms" ng-controller="FooterCtrl">
 				<li><a href="#" ng-click="showTerms()">Terms</a></li>
 				<li><a href="#" ng-click="showPrivacy()">Privacy</a></li>
 				<li><a href="#">Copyright &copy; 2013 SagePoint Software</a></li>
