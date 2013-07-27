@@ -10,6 +10,12 @@ body {
     color: #333;
 }
 
+iframe,
+embed,
+object {
+    max-width: 100%;
+}
+
 .bg-slate {
     background-color: $slate;
 }
@@ -97,7 +103,8 @@ body {
          -ms-transform: scale(0.85);
          -transform: scale(0.85);
          -moz-transform: scale(0.85);
-         left: 15px;
+         left: -11px;
+         font-size: 18px;
          &.hero-unit {
             padding: 0;
          }
@@ -145,6 +152,7 @@ body {
 	@media (max-width: 480px) {
 		padding: 0 25px;
 	}
+
     .divider {
         display: inline-block;
         background-image: url('../images/divider.png');
@@ -154,6 +162,9 @@ body {
 		@media (max-width: 979px) {
 			width: 40px;
 		}
+        @media (max-width: 480px) {
+            display: none;
+        }
     }
 }
 

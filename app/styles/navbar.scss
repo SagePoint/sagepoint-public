@@ -25,6 +25,10 @@
 
 	padding: 12px 50px;
 
+	@media (max-width: 480px) {
+		padding: 12px 0;
+	}
+
 	background-color: $slate;
 
 	.nav-pills li {
@@ -48,6 +52,10 @@
 		margin-left: 92px;
 		position: relative;
 		top: 18px;
+
+		@media (max-width: 480px) {
+			top: 0;
+		}
 
 		li {
 			margin-right: 15px;
