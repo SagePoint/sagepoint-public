@@ -31,11 +31,12 @@
 }
 
 .download-buttons {
-	button {
+	a {
 		position: relative;
 	    height: 50px;
 	    margin: 10px 0;
 	    min-width: 40%;
+	    padding-top: 15px;
 		img {
 			position: absolute;
 			&.right {

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('sagepointApp')
-  .controller('LearnCtrl', function ($scope) {
+  .controller('LearnCtrl', function ($scope, $location) {
 
     $scope.pageTitle = "Learn More Page";
     $scope.pageDescription = "This is where the learn more thingies will go."
@@ -11,5 +11,9 @@ angular.module('sagepointApp')
 			$("#requester-name").focus();
 		});
     };
+
+    $scope.downloadFile = function(path) {
+    	$location.path(path);
+    }
 
   });
