@@ -49,6 +49,28 @@ object {
     }
 }
 
+.btn-slate-light {
+    background: $slate-light;
+    border: none;
+    color: $offwhite;
+    &:hover {
+        background: darken($slate-light, 3%);
+        border: none;
+        color: $offwhite;
+    }
+}
+
+.btn-gray-light {
+    background: $gray-light;
+    border: 1px solid darken($gray-light, 5%);
+    color: $slate-dark;
+    &:hover {
+        background: darken($gray-light, 3%);
+        border: 1px solid darken($gray-light, 5%);
+        color: $slate-dark;
+    }
+}
+
 .company-title {
 	@include set-font("adelle", 800);
 }

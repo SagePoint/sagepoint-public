@@ -1,12 +1,51 @@
 @import "variables";
 
 .sandbox-container {
-	height: 710px;
+//	height: 710px;
 	background-color: $offwhite;
 	border-bottom: 1px solid $slate;
 	padding: 30px 250px;
+	h2 {
+		@include set-font("adelle", 400);	
+		color: $slate;
+		text-align: center;
+	}
+	p {
+		@include set-font("proxima-nova", 400);	
+		color: $slate;
+		font-size: 20px;
+	    line-height: 1.5;
+	    padding: 10px 80px;
+	    text-align: left;		
+	}
+
+	button {
+		text-align: center;
+		text-transform: uppercase;
+		@include set-font("proxima-nova", 700);
+	}
 }
 
 .sandbox-content {
 
+}
+
+.download-buttons {
+	button {
+		position: relative;
+	    height: 50px;
+	    margin: 10px 0;
+	    min-width: 40%;
+		img {
+			position: absolute;
+			&.right {
+				right: 20px;	
+			}
+			&.left {
+				left: 20px;	
+				bottom: 6px;
+			}
+			
+		}	
+	}
 }
