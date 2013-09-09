@@ -245,6 +245,7 @@ AddDefaultCharset utf-8
     RewriteRule ^ https://portal.sagepointsoftware.com%{REQUEST_URI} [R=301,L,QSA]
 </IfModule>
 
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Option 2: rewrite example.com → www.example.com
