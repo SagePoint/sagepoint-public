@@ -39,7 +39,15 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 8171,
+				"buffer_size": 8248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/.htaccess",
+			"settings":
+			{
+				"buffer_size": 24469,
 				"line_ending": "Unix"
 			}
 		}
@@ -330,7 +338,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -366,7 +374,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8171,
+						"buffer_size": 8248,
 						"regions":
 						{
 						},
@@ -382,7 +390,34 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5233.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/.htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11239,
+								11239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ApacheConf.tmLanguage/ApacheConf.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -432,6 +467,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"htaccess",
+				"app/.htaccess"
+			],
 			[
 				"grunt",
 				"Gruntfile.js"
