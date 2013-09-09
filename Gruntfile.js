@@ -247,7 +247,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'images/{,*/}*.{gif,webp,svg}',
             'styles/fonts/*',
-            'docs/{,*/}*.{pdf}'
+            'docs/*'
           ]
         }, {
           expand: true,
