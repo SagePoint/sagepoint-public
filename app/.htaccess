@@ -242,7 +242,7 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
     RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
     RewriteCond %{REQUEST_URI} ^/(a|account|admin|alpha|application|cert|clearance|dashboard|ep|ex|manage|matcher|metrics|options|projects|rater|skill_web|skill_web_tree|tasks|xml_server)/(.+)$ [NC]
-    RewriteRule ^ https://portal.sagepoinsoftware.com%{REQUEST_URI} [R=301,L, QSA]
+    RewriteRule ^ https://portal.sagepointsoftware.com%{REQUEST_URI} [R=301,L,QSA]
 </IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
