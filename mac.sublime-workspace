@@ -27,6 +27,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/styles/navbar.scss",
+			"settings":
+			{
+				"buffer_size": 1744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 8171,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -114,6 +130,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jarad.delorenzo/code/sagepoint/app/styles/main.scss",
 		"/Applications/MAMP/htdocs/skill_web/app/controllers/address_controller.rb",
 		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_partner.rhtml",
 		"/Applications/MAMP/htdocs/skill_web/public/js/sw/skillweb.js",
@@ -313,8 +330,63 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/styles/navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 899.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8135,
+								8135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5233.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -360,6 +432,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				".scss",
+				"app/styles/main.scss"
+			],
 			[
 				"libs",
 				"assets/js/libs.js"
