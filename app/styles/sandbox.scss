@@ -6,17 +6,17 @@
 	border-bottom: 1px solid $slate;
 	padding: 30px 250px;
 	h2 {
-		@include set-font("adelle", 400);	
+		@include set-font("adelle", 400);
 		color: $slate;
 		text-align: center;
 	}
 	p {
-		@include set-font("proxima-nova", 400);	
+		@include set-font("proxima-nova", 400);
 		color: $slate;
 		font-size: 20px;
 	    line-height: 1.5;
 	    padding: 10px 80px;
-	    text-align: left;		
+	    text-align: left;
 	}
 
 	button {
@@ -40,13 +40,21 @@
 		img {
 			position: absolute;
 			&.right {
-				right: 20px;	
+				right: 20px;
 			}
 			&.left {
-				left: 20px;	
+				left: 20px;
 				bottom: 6px;
 			}
-			
-		}	
+
+		}
+	}
+}
+
+.carousel-inner > .item > img { margin: 0 auto; }
+
+.carousel-caption {
+	p, h4 {
+		color: $offwhite
 	}
 }
