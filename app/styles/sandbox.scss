@@ -5,6 +5,11 @@
 	background-color: $offwhite;
 	border-bottom: 1px solid $slate;
 	padding: 30px 250px;
+
+    @media (max-width: 1250px) {
+    	padding: inherit;
+    }	
+
 	h2 {
 		@include set-font("adelle", 400);
 		color: $slate;

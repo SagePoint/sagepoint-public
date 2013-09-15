@@ -1,0 +1,1010 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"slat",
+				"slate-dark"
+			],
+			[
+				"slate-",
+				"slate-light"
+			],
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"for",
+				"force_ajax"
+			],
+			[
+				"empl",
+				"employer_id"
+			],
+			[
+				"inpu",
+				"input-xlarge"
+			],
+			[
+				"curr",
+				"currency_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/styles/home-hero.scss",
+			"settings":
+			{
+				"buffer_size": 1960,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/common.scss",
+			"settings":
+			{
+				"buffer_size": 4099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\nSearching 7232 files for \"content-header\" (regex)\n\n~/code/sagepoint-public/.sass-cache/d4d97a2e3058abd4bf0a27f7e83acd5faee3ce7c/common.scssc:\n    <binary>\n\n/home/delorenj/code/sagepoint-public/.tmp/styles/common.css:\n  188  \n  189  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003147}}\n  190: .content-header {\n  191    background-image: url(\"../images/pretties.png\");\n  192    background-repeat: repeat-x;\n  ...\n  195  }\n  196  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003150}}\n  197: .content-header h1 {\n  198    margin: 0;\n  199    font-family: \"adelle\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  ...\n  208  @media (max-width: 480px) {\n  209  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003150}}\n  210:   .content-header h1 {\n  211      width: 100%;\n  212      font-size: 50px;\n\n/home/delorenj/code/sagepoint-public/.tmp/styles/main.css:\n 8485  \n 8486  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003147}}\n 8487: .content-header {\n 8488    background-image: url(\"../images/pretties.png\");\n 8489    background-repeat: repeat-x;\n ....\n 8492  }\n 8493  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003150}}\n 8494: .content-header h1 {\n 8495    margin: 0;\n 8496    font-family: \"adelle\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n ....\n 8505  @media (max-width: 480px) {\n 8506  @media -sass-debug-info{filename{font-family:file\\:\\/\\/\\/home\\/delorenj\\/code\\/sagepoint-public\\/app\\/styles\\/common\\.scss}line{font-family:\\00003150}}\n 8507:   .content-header h1 {\n 8508      width: 100%;\n 8509      font-size: 50px;\n\n/home/delorenj/code/sagepoint-public/app/styles/common.scss:\n  145  }\n  146  \n  147: .content-header {\n  148      @include pretties(185px);\n  149  \n\n/home/delorenj/code/sagepoint-public/app/views/learn.html:\n    1: <div class=\"content-header\" style=\"position: relative; top: -1px;\">\n    2  	<h1>Your New Mission Control</h1>\n    3  </div>\n\n/home/delorenj/code/sagepoint-public/dist/styles/61214c32.main.css:\n   15   *\n   16   * Designed and built with all the love in the world @twitter by @mdo and @fat.\n   17:  */@-ms-viewport{width:device-width}.hidden{display:none;visibility:hidden}.visible-phone{display:none!important}.visible-tablet{display:none!important}.hidden-desktop{display:none!important}.visible-desktop{display:inherit!important}@media (min-width:768px) and (max-width:979px){.hidden-desktop{display:inherit!important}.visible-desktop{display:none!important}.visible-tablet{display:inherit!important}.hidden-tablet{display:none!important}}@media (max-width:767px){.hidden-desktop{display:inherit!important}.visible-desktop{display:none!important}.visible-phone{display:inherit!important}.hidden-phone{display:none!important}}.visible-print{display:none!important}@media print{.visible-print{display:inherit!important}.hidden-print{display:none!important}}.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:\"\";line-height:0}.clearfix:after{clear:both}.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}@media (min-width:1200px){.row{margin-left:-30px;*zoom:1}.row:before,.row:after{display:table;content:\"\";line-height:0}.row:after{clear:both}[class*=span]{float:left;min-height:1px;margin-left:30px}.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:1170px}.span1{width:70px}.span2{width:170px}.span3{width:270px}.span4{width:370px}.span5{width:470px}.span6{width:570px}.span7{width:670px}.span8{width:770px}.span9{width:870px}.span10{width:970px}.span11{width:1070px}.span12{width:1170px}.offset1{margin-left:130px}.offset2{margin-left:230px}.offset3{margin-left:330px}.offset4{margin-left:430px}.offset5{margin-left:530px}.offset6{margin-left:630px}.offset7{margin-left:730px}.offset8{margin-left:830px}.offset9{margin-left:930px}.offset10{margin-left:1030px}.offset11{margin-left:1130px}.offset12{margin-left:1230px}.row-fluid{width:100%;*zoom:1}.row-fluid:before,.row-fluid:after{display:table;content:\"\";line-height:0}.row-fluid:after{clear:both}.row-fluid [class*=span]{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;margin-left:2.5641%;*margin-left:2.51091%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .controls-row [class*=span]+[class*=span]{margin-left:2.5641%}.row-fluid .span1{width:5.98291%;*width:5.92971%}.row-fluid .span2{width:14.52991%;*width:14.47672%}.row-fluid .span3{width:23.07692%;*width:23.02373%}.row-fluid .span4{width:31.62393%;*width:31.57074%}.row-fluid .span5{width:40.17094%;*width:40.11775%}.row-fluid .span6{width:48.71795%;*width:48.66476%}.row-fluid .span7{width:57.26496%;*width:57.21177%}.row-fluid .span8{width:65.81197%;*width:65.75877%}.row-fluid .span9{width:74.35897%;*width:74.30578%}.row-fluid .span10{width:82.90598%;*width:82.85279%}.row-fluid .span11{width:91.45299%;*width:91.3998%}.row-fluid .span12{width:100%;*width:99.94681%}.row-fluid .offset1{margin-left:11.11111%;*margin-left:11.00473%}.row-fluid .offset1:first-child{margin-left:8.54701%;*margin-left:8.44063%}.row-fluid .offset2{margin-left:19.65812%;*margin-left:19.55174%}.row-fluid .offset2:first-child{margin-left:17.09402%;*margin-left:16.98763%}.row-fluid .offset3{margin-left:28.20513%;*margin-left:28.09875%}.row-fluid .offset3:first-child{margin-left:25.64103%;*margin-left:25.53464%}.row-fluid .offset4{margin-left:36.75214%;*margin-left:36.64575%}.row-fluid .offset4:first-child{margin-left:34.18803%;*margin-left:34.08165%}.row-fluid .offset5{margin-left:45.29915%;*margin-left:45.19276%}.row-fluid .offset5:first-child{margin-left:42.73504%;*margin-left:42.62866%}.row-fluid .offset6{margin-left:53.84615%;*margin-left:53.73977%}.row-fluid .offset6:first-child{margin-left:51.28205%;*margin-left:51.17567%}.row-fluid .offset7{margin-left:62.39316%;*margin-left:62.28678%}.row-fluid .offset7:first-child{margin-left:59.82906%;*margin-left:59.72268%}.row-fluid .offset8{margin-left:70.94017%;*margin-left:70.83379%}.row-fluid .offset8:first-child{margin-left:68.37607%;*margin-left:68.26969%}.row-fluid .offset9{margin-left:79.48718%;*margin-left:79.3808%}.row-fluid .offset9:first-child{margin-left:76.92308%;*margin-left:76.81669%}.row-fluid .offset10{margin-left:88.03419%;*margin-left:87.92781%}.row-fluid .offset10:first-child{margin-left:85.47009%;*margin-left:85.3637%}.row-fluid .offset11{margin-left:96.5812%;*margin-left:96.47481%}.row-fluid .offset11:first-child{margin-left:94.01709%;*margin-left:93.91071%}.row-fluid .offset12{margin-left:105.12821%;*margin-left:105.02182%}.row-fluid .offset12:first-child{margin-left:102.5641%;*margin-left:102.45772%}input,textarea,.uneditable-input{margin-left:0}.controls-row [class*=span]+[class*=span]{margin-left:30px}input.span1,textarea.span1,.uneditable-input.span1{width:56px}input.span2,textarea.span2,.uneditable-input.span2{width:156px}input.span3,textarea.span3,.uneditable-input.span3{width:256px}input.span4,textarea.span4,.uneditable-input.span4{width:356px}input.span5,textarea.span5,.uneditable-input.span5{width:456px}input.span6,textarea.span6,.uneditable-input.span6{width:556px}input.span7,textarea.span7,.uneditable-input.span7{width:656px}input.span8,textarea.span8,.uneditable-input.span8{width:756px}input.span9,textarea.span9,.uneditable-input.span9{width:856px}input.span10,textarea.span10,.uneditable-input.span10{width:956px}input.span11,textarea.span11,.uneditable-input.span11{width:1056px}input.span12,textarea.span12,.uneditable-input.span12{width:1156px}.thumbnails{margin-left:-30px}.thumbnails>li{margin-left:30px}.row-fluid .thumbnails{margin-left:0}}@media (min-width:768px) and (max-width:979px){.row{margin-left:-20px;*zoom:1}.row:before,.row:after{display:table;content:\"\";line-height:0}.row:after{clear:both}[class*=span]{float:left;min-height:1px;margin-left:20px}.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:724px}.span1{width:42px}.span2{width:104px}.span3{width:166px}.span4{width:228px}.span5{width:290px}.span6{width:352px}.span7{width:414px}.span8{width:476px}.span9{width:538px}.span10{width:600px}.span11{width:662px}.span12{width:724px}.offset1{margin-left:82px}.offset2{margin-left:144px}.offset3{margin-left:206px}.offset4{margin-left:268px}.offset5{margin-left:330px}.offset6{margin-left:392px}.offset7{margin-left:454px}.offset8{margin-left:516px}.offset9{margin-left:578px}.offset10{margin-left:640px}.offset11{margin-left:702px}.offset12{margin-left:764px}.row-fluid{width:100%;*zoom:1}.row-fluid:before,.row-fluid:after{display:table;content:\"\";line-height:0}.row-fluid:after{clear:both}.row-fluid [class*=span]{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;margin-left:2.76243%;*margin-left:2.70924%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .controls-row [class*=span]+[class*=span]{margin-left:2.76243%}.row-fluid .span1{width:5.8011%;*width:5.74791%}.row-fluid .span2{width:14.36464%;*width:14.31145%}.row-fluid .span3{width:22.92818%;*width:22.87499%}.row-fluid .span4{width:31.49171%;*width:31.43852%}.row-fluid .span5{width:40.05525%;*width:40.00206%}.row-fluid .span6{width:48.61878%;*width:48.56559%}.row-fluid .span7{width:57.18232%;*width:57.12913%}.row-fluid .span8{width:65.74586%;*width:65.69266%}.row-fluid .span9{width:74.30939%;*width:74.2562%}.row-fluid .span10{width:82.87293%;*width:82.81974%}.row-fluid .span11{width:91.43646%;*width:91.38327%}.row-fluid .span12{width:100%;*width:99.94681%}.row-fluid .offset1{margin-left:11.32597%;*margin-left:11.21958%}.row-fluid .offset1:first-child{margin-left:8.56354%;*margin-left:8.45715%}.row-fluid .offset2{margin-left:19.8895%;*margin-left:19.78312%}.row-fluid .offset2:first-child{margin-left:17.12707%;*margin-left:17.02069%}.row-fluid .offset3{margin-left:28.45304%;*margin-left:28.34666%}.row-fluid .offset3:first-child{margin-left:25.69061%;*margin-left:25.58422%}.row-fluid .offset4{margin-left:37.01657%;*margin-left:36.91019%}.row-fluid .offset4:first-child{margin-left:34.25414%;*margin-left:34.14776%}.row-fluid .offset5{margin-left:45.58011%;*margin-left:45.47373%}.row-fluid .offset5:first-child{margin-left:42.81768%;*margin-left:42.7113%}.row-fluid .offset6{margin-left:54.14365%;*margin-left:54.03726%}.row-fluid .offset6:first-child{margin-left:51.38122%;*margin-left:51.27483%}.row-fluid .offset7{margin-left:62.70718%;*margin-left:62.6008%}.row-fluid .offset7:first-child{margin-left:59.94475%;*margin-left:59.83837%}.row-fluid .offset8{margin-left:71.27072%;*margin-left:71.16434%}.row-fluid .offset8:first-child{margin-left:68.50829%;*margin-left:68.4019%}.row-fluid .offset9{margin-left:79.83425%;*margin-left:79.72787%}.row-fluid .offset9:first-child{margin-left:77.07182%;*margin-left:76.96544%}.row-fluid .offset10{margin-left:88.39779%;*margin-left:88.29141%}.row-fluid .offset10:first-child{margin-left:85.63536%;*margin-left:85.52898%}.row-fluid .offset11{margin-left:96.96133%;*margin-left:96.85494%}.row-fluid .offset11:first-child{margin-left:94.1989%;*margin-left:94.09251%}.row-fluid .offset12{margin-left:105.52486%;*margin-left:105.41848%}.row-fluid .offset12:first-child{margin-left:102.76243%;*margin-left:102.65605%}input,textarea,.uneditable-input{margin-left:0}.controls-row [class*=span]+[class*=span]{margin-left:20px}input.span1,textarea.span1,.uneditable-input.span1{width:28px}input.span2,textarea.span2,.uneditable-input.span2{width:90px}input.span3,textarea.span3,.uneditable-input.span3{width:152px}input.span4,textarea.span4,.uneditable-input.span4{width:214px}input.span5,textarea.span5,.uneditable-input.span5{width:276px}input.span6,textarea.span6,.uneditable-input.span6{width:338px}input.span7,textarea.span7,.uneditable-input.span7{width:400px}input.span8,textarea.span8,.uneditable-input.span8{width:462px}input.span9,textarea.span9,.uneditable-input.span9{width:524px}input.span10,textarea.span10,.uneditable-input.span10{width:586px}input.span11,textarea.span11,.uneditable-input.span11{width:648px}input.span12,textarea.span12,.uneditable-input.span12{width:710px}}@media (max-width:767px){body{padding-left:20px;padding-right:20px}.navbar-fixed-top,.navbar-fixed-bottom,.navbar-static-top{margin-left:-20px;margin-right:-20px}.container-fluid{padding:0}.dl-horizontal dt{float:none;clear:none;width:auto;text-align:left}.dl-horizontal dd{margin-left:0}.container{width:auto}.row-fluid{width:100%}.row,.thumbnails{margin-left:0}.thumbnails>li{float:none;margin-left:0}[class*=span],.uneditable-input[class*=span],.row-fluid [class*=span]{float:none;display:block;width:100%;margin-left:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.span12,.row-fluid .span12{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.row-fluid [class*=offset]:first-child{margin-left:0}.input-large,.input-xlarge,.input-xxlarge,input[class*=span],select[class*=span],textarea[class*=span],.uneditable-input{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.input-prepend input,.input-append input,.input-prepend input[class*=span],.input-append input[class*=span]{display:inline-block;width:auto}.controls-row [class*=span]+[class*=span]{margin-left:0}.modal{position:fixed;top:20px;left:20px;right:20px;width:auto;margin:0}.modal.fade{top:-100px}.modal.fade.in{top:20px}}@media (max-width:480px){.nav-collapse{-webkit-transform:translate3d(0,0,0)}.page-header h1 small{display:block;line-height:20px}input[type=checkbox],input[type=radio]{border:1px solid #ccc}.form-horizontal .control-label{float:none;width:auto;padding-top:0;text-align:left}.form-horizontal .controls{margin-left:0}.form-horizontal .control-list{padding-top:0}.form-horizontal .form-actions{padding-left:10px;padding-right:10px}.media .pull-left,.media .pull-right{float:none;display:block;margin-bottom:10px}.media-object{margin-right:0;margin-left:0}.modal{top:10px;left:10px;right:10px}.modal-header .close{padding:10px;margin:-10px}.carousel-caption{position:static}}@media (max-width:979px){body{padding-top:0}.navbar-fixed-top,.navbar-fixed-bottom{position:static}.navbar-fixed-top{margin-bottom:20px}.navbar-fixed-bottom{margin-top:20px}.navbar-fixed-top .navbar-inner,.navbar-fixed-bottom .navbar-inner{padding:5px}.navbar .container{width:auto;padding:0}.navbar .brand{padding-left:10px;padding-right:10px;margin:0 0 0 -5px}.nav-collapse{clear:both}.nav-collapse .nav{float:none;margin:0 0 10px}.nav-collapse .nav>li{float:none}.nav-collapse .nav>li>a{margin-bottom:2px}.nav-collapse .nav>.divider-vertical{display:none}.nav-collapse .nav .nav-header{color:#777;text-shadow:none}.nav-collapse .nav>li>a,.nav-collapse .dropdown-menu a{padding:9px 15px;font-weight:700;color:#777;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.nav-collapse .btn{padding:4px 10px;font-weight:400;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.nav-collapse .dropdown-menu li+li a{margin-bottom:2px}.nav-collapse .nav>li>a:hover,.nav-collapse .nav>li>a:focus,.nav-collapse .dropdown-menu a:hover,.nav-collapse .dropdown-menu a:focus{background-color:#f2f2f2}.navbar-inverse .nav-collapse .nav>li>a,.navbar-inverse .nav-collapse .dropdown-menu a{color:#999}.navbar-inverse .nav-collapse .nav>li>a:hover,.navbar-inverse .nav-collapse .nav>li>a:focus,.navbar-inverse .nav-collapse .dropdown-menu a:hover,.navbar-inverse .nav-collapse .dropdown-menu a:focus{background-color:#111}.nav-collapse.in .btn-group{margin-top:5px;padding:0}.nav-collapse .dropdown-menu{position:static;top:auto;left:auto;float:none;display:none;max-width:none;margin:0 15px;padding:0;background-color:transparent;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.nav-collapse .open>.dropdown-menu{display:block}.nav-collapse .dropdown-menu:before,.nav-collapse .dropdown-menu:after{display:none}.nav-collapse .dropdown-menu .divider{display:none}.nav-collapse .nav>li>.dropdown-menu:before,.nav-collapse .nav>li>.dropdown-menu:after{display:none}.nav-collapse .navbar-form,.nav-collapse .navbar-search{float:none;padding:10px 15px;margin:10px 0;border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1)}.navbar-inverse .nav-collapse .navbar-form,.navbar-inverse .nav-collapse .navbar-search{border-top-color:#111;border-bottom-color:#111}.navbar .nav-collapse .nav.pull-right{float:none;margin-left:0}.nav-collapse,.nav-collapse.collapse{overflow:hidden;height:0}.navbar .btn-navbar{display:block}.navbar-static .navbar-inner{padding-left:10px;padding-right:10px}}@media (min-width:980px){.nav-collapse.collapse{height:auto!important;overflow:visible!important}}html,body{background-color:#3a4147}body{background:#3a4147;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;color:#333}iframe,embed,object{max-width:100%}.bg-slate{background-color:#3a4147}.clickable{cursor:pointer}.container-fluid{background-color:#f5f6f7;margin:0 auto;padding:0}.container-narrow>hr{margin:30px 0}.login-button{background-image:url(../images/773e25a3.login-button.png);background-repeat:no-repeat;background-position:0 -39px;width:140px;height:39px;box-shadow:rgba(0,0,0,.5) 0 3px 5px;border-radius:12px}.login-button:hover{background-position:0 0}.btn-slate-light{background:#4e545a;border:0;color:#f5f6f7}.btn-slate-light:hover{background:#474c52;border:0;color:#f5f6f7}.btn-gray-light{background:#e0e3e6;border:1px solid #d2d6db;color:#242c33}.btn-gray-light:hover{background:#d8dbdf;border:1px solid #d2d6db;color:#242c33}.company-title{font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:800}.request-form{width:324px;position:relative;top:15px;color:#f5f6f7;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;font-size:22px;float:left}@media (max-width:979px){.request-form{padding:25px 0}}.request-form input{box-shadow:inset 3px 2px 4px .1px rgba(0,0,0,.2);border:0;height:30px;width:300px;padding:10px;background-color:#242c33;color:#f5f6f7;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;font-size:18px}.request-form input ::-webkit-input-placeholder{color:#4e545a}.request-form input :-moz-placeholder{color:#4e545a}.request-form input ::-moz-placeholder{color:#4e545a}.request-form input :-ms-input-placeholder{color:#4e545a}.request-form div.submit{background-image:url(../images/ef19efb9.request-button.png);background-position:0 -60px;position:relative;width:320px;height:60px;left:0;background-repeat:no-repeat;box-shadow:rgba(0,0,0,.5) 0 3px 5px;border-radius:12px}.request-form div.submit:hover{background-position:0 0}.request-form div.submit.not-clickable{background-position:inherit}@media (max-width:480px){.request-form{-webkit-transform:scale(0.85);-ms-transform:scale(0.85);-transform:scale(0.85);-moz-transform:scale(0.85);left:-11px;font-size:18px}.request-form.hero-unit{padding:0}}.slate-container{background-color:#3a4147;color:#f5f6f7;padding:60px 50px;text-align:center}.slate-container h2{font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300}.content-header{background-image:url(../images/9d2b301a.pretties.png);background-repeat:repeat-x;background-position:0;height:185px}.content-header h1{margin:0;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;font-size:75px;color:#f5f6f7;text-align:center;position:relative;top:55px;line-height:1}@media (max-width:480px){.content-header h1{width:100%;font-size:50px}}.content-section-header div.header{font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:600;color:#67ac53;font-size:17px;text-transform:uppercase}@media (max-width:480px){.content-section-header{padding:0 25px}}.content-section-header .divider{display:inline-block;background-image:url(../images/595b0dae.divider.png);width:20%;height:2px}@media (max-width:979px){.content-section-header .divider{width:40px}}@media (max-width:480px){.content-section-header .divider{display:none}}.pretties-container{background-image:url(../images/9d2b301a.pretties.png);background-repeat:repeat-x;background-position:0;height:320px;padding:50px;color:#f5f6f7}.hero-unit{margin:50px auto 0;width:300px;font-size:18px;font-weight:200;line-height:30px;background-color:#eee;border-radius:6px;padding:60px}.hero-unit h1{font-size:60px;line-height:1;letter-spacing:-1px}.surveyForm .control-label{width:185px}.surveyForm .controls{margin-left:250px}.coming-soon{text-align:center;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400}.coming-soon .countdown-timer{margin-top:30px}.navbar-inner{background-image:none;filter:none;color:#f5f6f7;text-align:center;border:0}.navbar-inner .nav>li>a{text-shadow:none}.navbar-inner .nav>li>a:hover{color:inherit}.masthead,.mastfoot{padding:12px 50px;background-color:#3a4147}.masthead.navbar,.navbar.mastfoot{margin:0}.masthead .navbar-inner,.mastfoot .navbar-inner{background-color:#3a4147}@media (max-width:480px){.masthead,.mastfoot{padding:12px 0}}.masthead .nav-pills li a,.mastfoot .nav-pills li a{background-color:#3a4147;color:#f5f6f7;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:600;text-transform:uppercase}.masthead .nav-pills li a:hover,.mastfoot .nav-pills li a:hover{text-shadow:0 0 10px #79c040}.masthead .nav-pills li.active a,.mastfoot .nav-pills li.active a{background-color:#242c33;color:#f5f6f7}.masthead ul,.mastfoot ul{margin-left:92px;position:relative;top:18px}@media (max-width:480px){.masthead ul,.mastfoot ul{top:0}}.masthead ul li,.mastfoot ul li{margin-right:15px}.masthead .logo,.mastfoot .logo,.masthead ul,.mastfoot ul{float:left}.masthead .logo,.mastfoot .logo{background-image:url(../images/92a3f591.masthead-logo.png);background-size:253px 100px;width:253px;height:100px}.mastfoot{background-color:#242c33}.mastfoot .navbar-inner{background-color:#242c33}.mastfoot .nav-pills li a{background-color:#242c33}.mastfoot ul.terms{position:relative;top:0}.mastfoot ul.terms li a{text-shadow:none;color:#4e545a;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;text-transform:none!important}.mastfoot ul.terms li a:hover{color:#666e75}.mastfoot .divider{background-image:url(../images/595b0dae.divider.png);background-repeat:no-repeat;width:621px;height:5px}@media (max-width:979px){.mastfoot .divider{display:none}}.footer{min-height:86px;background-color:#242c33;color:#f5f6f7}.footer .container{padding:50px}.footer .logo-text{padding:0}.footer .logo-text .sage{padding:0;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:800;font-size:35px}.footer .logo-text .point{padding:0;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;font-size:35px}.footer .logo-text .software{padding:0;text-transform:uppercase;letter-spacing:11.5px;line-height:2.1;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:600;font-size:16px}.footer .nav-pills li{margin:0 8px}.footer .nav-pills li a{background-color:#242c33;color:#f5f6f7;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:600;font-size:14px;text-transform:uppercase}.footer .nav-pills li a:hover{text-shadow:0 0 10px #79c040}.footer ul.terms{position:relative;top:40px}.footer ul.terms li a{color:#4e545a;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;text-transform:none!important}.footer ul.terms li a:hover{color:#666e75}.footer .divider{background-image:url(../images/595b0dae.divider.png);background-repeat:no-repeat;position:relative;top:85px;left:357px;width:621px;height:5px}@media (max-width:979px){.footer .divider{display:none}}.home-hero{background-image:url(../images/9d2b301a.pretties.png);background-repeat:repeat-x;background-position-x:109px;height:535px}@media (max-width:480px){.home-hero{top:480px}}.home-hero.form{padding-top:40px}.home-hero h1{margin:0;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;font-size:75px;color:#f5f6f7;text-align:center;position:relative;top:55px;line-height:1}@media (max-width:480px){.home-hero h1{width:100%;font-size:50px}}.home-hero h2{position:relative;top:125px;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:300;font-size:45px;color:#f5f6f7;text-align:left;line-height:1.5}@media (max-width:480px){.home-hero h2{width:100%;left:inherit;font-size:26px}}.home-hero .video-frame{float:left;background-image:url(../images/73c727d1.video-frame.png);background-repeat:no-repeat;width:566px;height:368px;position:relative;padding-left:46px;padding-top:37px}@media (max-width:480px){.home-hero .video-frame{background-image:none;top:-85px;padding:0;width:280px;height:183px}}.home-hero .home-hero-container{position:relative;top:160px}.sub-hero{padding:150px 0 0;text-align:center;line-height:1.5;font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;font-size:25px}@media (min-width:979px){.sub-hero{padding:150px 0;margin-bottom:90px}}@media (max-width:480px){.sub-hero{font-size:18px;padding:0}}@media (min-width:768px) and (max-width:979px){.sub-hero{padding:150px 0;margin-bottom:100px}}.sub-hero .company-title{font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:800}.sub-sub-hero{position:relative}@media (min-width:980px){.sub-sub-hero{top:-380px}}@media (min-width:768px) and (max-width:979px){.sub-sub-hero{top:-130px}}@media (min-width:481px) and (max-width:767px){.sub-sub-hero{top:-130px}}@media (max-width:480px){.sub-sub-hero{top:-200px}}.sandbox-container{background-color:#f5f6f7;border-bottom:1px solid #3a4147;padding:30px 250px}.sandbox-container h2{font-family:adelle,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;color:#3a4147;text-align:center}.sandbox-container p{font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:400;color:#3a4147;font-size:20px;line-height:1.5;padding:10px 80px;text-align:left}.sandbox-container button{text-align:center;text-transform:uppercase;font-family:proxima-nova,\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:700}.download-buttons a{position:relative;height:50px;margin:10px 0;min-width:40%;padding-top:15px}.download-buttons a img{position:absolute}.download-buttons a img.right{right:20px}.download-buttons a img.left{left:20px;bottom:6px}.carousel-inner>.item>img{margin:0 auto}.carousel-caption p,.carousel-caption h4{color:#f5f6f7}\n\n/home/delorenj/code/sagepoint-public/dist/views/learn.html:\n    1: <div class=\"content-header\" style=\"position: relative; top: -1px\">\n    2  	<h1>Your New Mission Control</h1>\n    3  </div>\n\n15 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 27737,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/views/learn.html",
+			"settings":
+			{
+				"buffer_size": 2509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/sandbox.scss",
+			"settings":
+			{
+				"buffer_size": 949,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/main.html",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"thumb",
+				"Snippet: Bootstrap thumbnails"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"hori",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"gu",
+				"Grunt"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"insert",
+				"Bracketeer: Insert square brackets"
+			],
+			[
+				"brack",
+				"Bracketeer: Insert curly brackets"
+			],
+			[
+				"remo",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"bra",
+				"Bracketeer: Indent Text"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) ",
+			"index",
+			"grunt",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/tpls-diff-temp.js",
+		"/home/delorenj/code/hibbert/dist/components/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/home/delorenj/code/hibbert/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/tools/base64.html",
+		"/home/delorenj/code/hibbert/app/components/angular-bootstrap/ui-bootstrap.js",
+		"/home/delorenj/code/hibbert/app/styles/main.css",
+		"/home/delorenj/code/hibbert/app/scripts/controllers/prescriptionForm.js",
+		"/home/delorenj/code/hibbert/bower.json",
+		"/home/delorenj/code/hibbert/.bowerrc",
+		"/home/delorenj/code/sagepoint-public/dist/views/learn.html",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/address_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_partner.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/skillweb.js",
+		"/Applications/MAMP/htdocs/skill_web/public/scripts/sagepoint.js",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/manage_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130128020000_create_preferred_skills.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/models/address.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/models/user.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/admin_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824191834_create_users_addresses_table.rb",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20130824190646_add_type_column_to_address.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/ep.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/manage.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/admin.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/layouts/dashboard.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/skillweb.js",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/ep_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/dashboard_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/application_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_1.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_edit.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/config/routes.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/res_overview.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/projects/_form.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_create.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_edit_popup.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_5.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_6.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_proj_table.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_4.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_1.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_2.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/ob_step_2.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/public/javascripts/obw.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_skill_pill.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_get_skills.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/_allocate.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/add_experience/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/tasks/_form.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_modal_template.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_4.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_aob_step_3.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_skill_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_edit.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/controllers/account_controller.rb",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/ob/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/clearance_list.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/ep/add_experience.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_hr.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_list.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_task_matches.rhtml",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_search_results.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/public/javascripts/application.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/cert_list.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/manage/task_overview/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/manage/edit_task/main.js",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/admin/dashboard/main.js",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/admin/dashboard/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/_user_line.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/admin/hr.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/_task_overview.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/assets/js/sw/ep/task_edit_popup/main.js",
+		"/Applications/MAMP/htdocs/skill_web/db/migrate/20090929212929_change_reports_association.rb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_cert_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/app/views/partial/_clearance_requirements.html.erb",
+		"/Applications/MAMP/htdocs/skill_web/public/js/sw/ep/add_experience/main.js",
+		"/Applications/MAMP/htdocs/skill_web/app/views/manage/_resource_search_row.html.erb",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 3/Packages/User/Default ().sublime-keymap",
+		"/Users/jarad.delorenzo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"~/code/sagepoint-public",
+			"~/code/hibbert",
+			"~/code/hibbert/app/scripts",
+			"~/code/hibbert",
+			"~/code/sagepoint-public",
+			"/Applications/MAMP/htdocs/skill_web",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content-header",
+			"tabs",
+			"dialogModule",
+			"dialog",
+			"dialogModule",
+			"dialog",
+			"dalog",
+			"dialogProvider",
+			"$dialogProvider",
+			"dialog",
+			"coming",
+			"tabs",
+			"tab",
+			"cx1",
+			"cx1_original",
+			"dataset",
+			"span4",
+			"0.5.0",
+			"latest",
+			"dialog",
+			"$dialog",
+			"');",
+			"downloadFile('",
+			"click",
+			"button",
+			"click",
+			"bottom-request",
+			"button",
+			"cssStyle",
+			"notifybar()",
+			"alert",
+			"cssStyle",
+			"notifybar()",
+			"notifybar\\(\\)",
+			"addresses",
+			"mine",
+			"hr_admin",
+			"skillweb.js",
+			"address_address",
+			"helper.*state",
+			"helper",
+			"state",
+			"states",
+			"us_states",
+			"state",
+			"state_helper",
+			"State",
+			"home_location",
+			"us_states",
+			" offset0",
+			" span16",
+			"home_location",
+			"res_",
+			"State",
+			"state",
+			"select",
+			"city",
+			"2",
+			"placeholder=\"i.e. Boston Office\" ",
+			"1",
+			"description",
+			"Description",
+			"description",
+			"address_description",
+			"create a new project",
+			"popup_new_project",
+			"Add a new task",
+			"add a new task",
+			"Continue &#187;",
+			"value=\nvalue=\"Continue\"",
+			"Continue",
+			"Coninute",
+			"continue",
+			"Are you sure you want to delete this skill",
+			"remove_skill_from",
+			"fade",
+			"skillList",
+			"Back to summary",
+			"resource_overview",
+			"get_currencies",
+			"select_tag",
+			"selected",
+			"TITS",
+			"is_locked",
+			"star",
+			"def warning",
+			"warning",
+			"set_skill",
+			"    var getField = function(param) {\n        if(typeof param.sel === 'undefined') {\n            return $(\"#\" + param.id);\n        } else {\n            return $(param.sel);\n        }\n    }\n",
+			"addTaskModalSubmit",
+			"main.js",
+			"addTaskModalSubmit",
+			"tos_accepted",
+			"Remove this requirement from the list",
+			"cert_req_row_hp",
+			"CertList",
+			"cert",
+			"Weight",
+			"replace",
+			"time",
+			"replaceText",
+			"match_status",
+			"addTaskModal",
+			"alert_match",
+			"addTaskModalSubmit",
+			"alert_MATCH",
+			"Not run for",
+			"Not run for current",
+			"Compare",
+			"Titttt",
+			"form_tag",
+			"usereditholder",
+			"signupform",
+			"validateNewUser",
+			"onsubmit",
+			"admin/new_user",
+			"resource_profile_first_name",
+			"userProfileModalSubmit",
+			"data-target",
+			"split",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/styles/home-hero.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1185,
+								1185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 554.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/common.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3077,
+								3077
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27737,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										394,
+										408
+									],
+									[
+										689,
+										703
+									],
+									[
+										1019,
+										1033
+									],
+									[
+										1326,
+										1340
+									],
+									[
+										1621,
+										1635
+									],
+									[
+										1951,
+										1965
+									],
+									[
+										2110,
+										2124
+									],
+									[
+										2251,
+										2265
+									],
+									[
+										20145,
+										20159
+									],
+									[
+										20277,
+										20291
+									],
+									[
+										20497,
+										20511
+									],
+									[
+										27599,
+										27613
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								27737,
+								27737
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3052.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/learn.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/styles/sandbox.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ubuntu.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"ui-bootstratpls",
+				"app/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-bootstrap-tpls",
+				"dist/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"tabs.html",
+				"node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/tools/base64.html"
+			],
+			[
+				"tpls",
+				"app/components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-boot",
+				"app/components/angular-bootstrap/ui-bootstrap.js"
+			],
+			[
+				"",
+				".bowerrc"
+			],
+			[
+				"learnjs",
+				"app/scripts/controllers/learn.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"scss",
+				"app/styles/common.scss"
+			],
+			[
+				"libs",
+				"assets/js/libs.js"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"locatio",
+				"assets/js/sw/location.js"
+			],
+			[
+				"skilwebjs",
+				"public/js/sw/skillweb.js"
+			],
+			[
+				"sagejs",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"address",
+				"app/models/address.rb"
+			],
+			[
+				"mana",
+				"app/controllers/manage_controller.rb"
+			],
+			[
+				"prefskil",
+				"db/migrate/20130128020000_create_preferred_skills.rb"
+			],
+			[
+				"migraremove",
+				"db/migrate/20130824200431_remove_primary_key_from_users_addresses.rb"
+			],
+			[
+				"add",
+				"app/models/address.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"user.",
+				"app/models/user.rb"
+			],
+			[
+				"creauserad",
+				"db/migrate/20130824191834_create_users_addresses_table.rb"
+			],
+			[
+				"createprefer",
+				"db/migrate/20130128020000_create_preferred_skills.rb"
+			],
+			[
+				"columntoadd",
+				"db/migrate/20130824190646_add_type_column_to_address.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"dashtml",
+				"app/views/layouts/dashboard.rhtml"
+			],
+			[
+				"skillwe",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"sagepointjs",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"dash",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"res_ov",
+				"app/views/ep/res_overview.rhtml"
+			],
+			[
+				"_form",
+				"app/views/projects/_form.rhtml"
+			],
+			[
+				"modalte",
+				"app/views/partial/_modal_template.erb"
+			],
+			[
+				"sage",
+				"public/scripts/sagepoint.js"
+			],
+			[
+				"dashlistmain",
+				"assets/js/sw/dashboard/list/main.js"
+			],
+			[
+				"projcon",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"_taskcrea",
+				"app/views/partial/_task_create.html.erb"
+			],
+			[
+				"tasedipop",
+				"app/views/partial/_task_edit_popup.html.erb"
+			],
+			[
+				"step",
+				"app/views/admin/_aob_step_1.html.erb"
+			],
+			[
+				"step2",
+				"app/views/admin/_aob_step_2.html.erb"
+			],
+			[
+				"obstep",
+				"app/views/ep/ob_step_2.rhtml"
+			],
+			[
+				"epob.",
+				"app/views/ep/ob_step_1.rhtml"
+			],
+			[
+				"obw.js",
+				"public/javascripts/obw.js"
+			],
+			[
+				"epskillpill",
+				"app/views/ep/_skill_pill.html.erb"
+			],
+			[
+				"_gets",
+				"app/views/ep/_get_skills.html.erb"
+			],
+			[
+				"epaddemain",
+				"assets/js/sw/ep/add_experience/main.js"
+			],
+			[
+				"manage",
+				"app/controllers/manage_controller.rb"
+			],
+			[
+				"task_over",
+				"app/views/manage/_task_overview.html.erb"
+			],
+			[
+				"_skillre",
+				"app/views/partial/_skill_requirements.html.erb"
+			],
+			[
+				"_taskover",
+				"app/views/manage/_task_overview.html.erb"
+			],
+			[
+				"accou",
+				"app/controllers/account_controller.rb"
+			],
+			[
+				"applicati",
+				"public/javascripts/application.js"
+			],
+			[
+				"epobmain",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"epmain",
+				"assets/js/sw/ep/task_edit_popup/main.js"
+			],
+			[
+				"skil",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"epobma",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"migra",
+				"db/migrate/20090929212929_change_reports_association.rb"
+			],
+			[
+				"clearlist",
+				"assets/js/sw/clearance_list.js"
+			],
+			[
+				"obmain",
+				"assets/js/sw/ep/ob/main.js"
+			],
+			[
+				"add_ex",
+				"app/views/ep/add_experience.rhtml"
+			],
+			[
+				"userlist",
+				"app/views/admin/_user_list.html.erb"
+			],
+			[
+				"_userlin",
+				"app/views/admin/_user_line.html.erb"
+			],
+			[
+				"skillwejs",
+				"assets/js/sw/skillweb.js"
+			],
+			[
+				"admidasmai",
+				"assets/js/sw/admin/dashboard/main.js"
+			],
+			[
+				"_user",
+				"app/views/admin/_user_line.html.erb"
+			],
+			[
+				"modtempl",
+				"app/views/partial/_modal_template.erb"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 980.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
